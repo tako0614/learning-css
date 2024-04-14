@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="./App.js"></script>
+    </head>
+    <body>
+        <header class="fixed w-full">
+            <nav class="h-16 bg-gray-500 text-white">
+                <div class="flex w-11/12 m-auto h-full">
+                    <div class="text-3xl w-1/5 h-full mt-2">
+                        <a class="m-auto" href="/">Test Pages</a>
+                    </div>
+                    <nav class="ml-auto flex">
+                        <ul class="flex">
+                            <li class="pl-10 m-auto"><a href="/home">Home</a></li>
+                            <li class="pl-10 m-auto"><a href="/about">About</a></li>
+                            <li class="pl-10 m-auto"><a href="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </header>
+        <div class="bg-[url('https://takos.jp/main-bg.webp')] bg-centor bg-cover h-screen w-full">
+            <div class="flex h-full">
+                <div class="m-auto text-white">
+                    <h1 class="text-white text-6xl" id="tako2">Welcome to the Test Pages</h1>
+                    <div class="text-center">
+                        <input type="text" id="text" class="bg-gray-700 rounded">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="handleClick()">更新</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-screen bg-white">
+            <div class="text-center h-5/6 w-7/12 m-auto">
+                <h1 class="text-6xl pt-10">Welcome to the Test Pages</h1>
+                <p class="text-2xl pt-3">このサイトはhtmlとcssを学ぶためのページです</p>
+                <div>
+                    Hi, I specialize in Framework development with a focus onjs JavaScript &ts TypeScript.I have some proficiency in various web-based tasks.
+                </div>
+                <div class="flex w-full pt-10 h-[400px]">
+                    <div class="w-1/3 h-full">
+                        <div class="bg-gray-300 w-11/12 h-full m-auto rounded h-full flex flex-col p-5">
+                            <h1 class="text-3xl mb-10">takos</h1>
+                            <p class="">
+                                takosは分散型チャットサービスです<br /> このサービスはDenoとFreshを使って作られています
+                            </p>
+                            <Button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded block m-auto w-1/2 mt-auto mb-2.5">
+                                twitter
+                            </Button>
+                        </div>
+                    </div>
+                    <div class="w-1/3 h-full">
+                        <div class="bg-gray-300 w-11/12 h-full m-auto rounded h-full flex flex-col p-5">
+                            <h1 class="text-3xl mb-10">takos</h1>
+                            <p class="">
+                                takosは分散型チャットサービスです<br /> このサービスはDenoとFreshを使って作られています
+                            </p>
+                            <Button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded block m-auto w-1/2 mt-auto mb-2.5">
+                                github
+                            </Button>
+                        </div>
+                    </div>
+                    <div class="w-1/3 h-full">
+                        <div class="bg-gray-300 w-11/12 h-full m-auto rounded h-full flex flex-col p-5">
+                            <h1 class="text-3xl mb-10">takos</h1>
+                            <p class="">
+                                takosは分散型チャットサービスです<br /> このサービスはDenoとFreshを使って作られています
+                            </p>
+                            <Button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded block m-auto w-1/2 mt-auto mb-2.5">
+                                tintin
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
